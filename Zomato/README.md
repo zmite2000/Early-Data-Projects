@@ -32,38 +32,46 @@ This was the Final project for the TripleTen Business Intelligence Analytics Pro
 
 **Description:**
 
-    This was a Customer Segmentation Analysis.
-    2 pages in Power BI.
-    Includes KPI cards, Pie charts, bar charts, and RFM analysis.
+- This was a Customer Segmentation Analysis.
+- 3 pages in Power BI. Includes KPI cards, Pie charts, bar charts, and RFM analysis.
+- 2 pages of conclusions
+- 1 page of recommendations
 
-Process:
+**Process:**
 
-I first learned of the problem presented in its entirety and its requirements for approval. Then, I chose software and created my first submission, the "Decomposition Plan". After, I analyzed the data and created visualizations and dashboards for a second submission. Lastly, I presented my findings in a report as my 3rd and final submission piece.
-Data
+The project began with a Decomposition Plan outlining the approach, data plans, analysis and conclusion concepts. After the plan was approved Power BI was the tool selected to use for the analysis and visualizations. Data cleaning was required to convert to standard currency, date formats and removal of negative data. A calcuation was performed to better understand the data. The data was then broken into segments to gather insights and determine relationships. A set of insight statements is provided in the conclusion and recommened next steps.
 
-TripleTen provided an archived file of 5 separate Excel files from the mock company Zomato. I used 2 for this project.
+**Data**
 
-    'Zomato data.zip': Compressed Excel files provided by team lead
-        'orders': All orders made from the menu by all customers at all restaurants between Oct. 4th, 2017, and June 26th, 2020.
-        'users': All customers who completed orders during the designated time frame and their demographic information.
-    'Measures Table': Created table for analysis and to maintain the integrity of original files. Housing all used measures.
-    'Calendar': Created table for analysis and to maintain the integrity of original files. Housing all date information for potential calculations.
-    'Segmentations': Created table for analysis and to maintain the integrity of original files. Housing all segments and RFM scores needed for inclusion.
-    'RFM Table': Created table for analysis and to maintain the integrity of original files. Housing all RFM calculations.
+TripleTen provided an archived file of 5 separate Excel files from the mock company Zomato. Two of those files were used for the project.
 
-Assumptions:
+- 'Zomato data.zip': Compressed Excel files provided by team lead
+    - 'orders': All orders made from the menu by all customers at all restaurants between Oct. 4th, 2017, and June 26th, 2020.
+    - 'users': All customers who completed orders during the designated time frame and their demographic information.
 
-    The provided test datasets are accurate, complete, and consistent.
-    Missing values or inconsistencies are minimal and will not significantly impact the analysis.
-    The column descriptions accurately reflect the content of each table.
-    The provided tables (orders and users) contain all the necessary information for the chosen analysis.
-    Zomato's business context and industry trends are considered while interpreting the data.
+**Assumptions:**
 
-Findings:
+- The provided test datasets are accurate, complete, and consistent.
+- Missing values or inconsistencies were corrected where possible. Those that were note corrected were minimal and will not significantly impact the analysis.
+- The column descriptions accurately reflect the content of each table.
+- The provided tables (orders and users) contain all the necessary information for the chosen analysis.
+- Zomato's business context and industry trends are considered while interpreting the data.
 
-    Customers mostly consist of 23-year-old unmarried men.
-    There is a natural distribution for age however the range is small at 18-34.
-    Women are close behind, but there are significantly more customers who are single than married.
-    Zomato’s customers usually have small family sizes (2-3), educated, but unemployed.
-    Employed customers tend to be below middle class ($50,000/yr).
+**Findings:**
 
+- Primary Customer Segement:
+    - Age: 75% of purchasers are ages 21-26 years old (dataset range is 18-33 years old)
+    - Gender: 45% female/55% male (dataset split 43% female/57% male)
+    - Marital Status: 83% are single (dataset 69% single)
+    - Occupation: 66% are students/23% are employees (dataset 54% student/30% employee)
+    - Monthly Income: 56% have no income (dataset 48% no income)
+    - Education: 53% Post-Graduate/40% Graduate (dataset 45% Post-Graduate/45% Graduate)
+
+- Sales Insights
+    - Total monthly sales is consistently Students, Employee, Self Employed, House Wife in that order of highest to lowest month over month.
+    - There is a strong correlation between age and average total sale. As age increases the average sales total increases as well. This was stronger in males than females.
+    - From a sales month perspective highest sales were July and August. Whereas the lower months are Sept-Dec. Males have a higher purchasing amount due there being more of them in the sample size. This also holds true for education levels of purchasers (90% are Graduate or Post Graduate).
+
+- Recommendations:
+    - The data shows over 1600 purchases equal to 0 INR. This may indicate a sales initiative to bring customers in with a free offering. It is recommended exploring the effectiveness of that campaign in retaining customers. What is the frequency of purchases? What is the purchase value each time? What percentage never came back?
+    - 494 distinct purchasers (0.63%) have orders greater than 200,000 INR. Sales totaling 187,589,412 INR. This accounts for roughly 20% of the total sales in the data. Most of it comes from students and employees. Further research is recommended for this customer segment in terms of large orders.
