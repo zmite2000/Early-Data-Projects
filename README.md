@@ -1,4 +1,4 @@
-# Early-Data-Projects
+# Early-Data-Projects-TripleTen
 
 Portfolio of completed projects I worked on while attending the BI Analytics TripleTen Bootcamp.
 
