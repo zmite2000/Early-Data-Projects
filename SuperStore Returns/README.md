@@ -1,3 +1,5 @@
+# File Title: Shopify Power BI
+
 This was the fifth project in the TripleTen Business Intelligence Analytics Program. It was an independent project designed to showcase the use of Tableau Dashboards and Story Telling. The project's purpose and scope was to prepare an analysis for the CEO of Superstore to help them understand what is causing customers to return their orders and how to reduce the volume of returned orders.
 
 <img width="1031" alt="Screenshot 2025-02-02 at 4 23 24 PM" src="https://github.com/user-attachments/assets/70983a72-49f2-429c-8e71-c2ef6c404317" />
